@@ -1,0 +1,181 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "EBGaramond-Regular";
+    src: url(fonts/EBGaramond-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-size: large;
+}
+
+@font-face {
+    font-family: "EBGaramond-Bold" format(truetype);
+    src: url(fonts/EBGaramond-Bold.ttf);
+    font-weight: bold;
+    font-size: large;
+}
+
+@font-face {
+    font-family: "EBGaramond-Italic" format(truetype);
+    src: url(fonts/EBGaramond-Italic.ttf);
+    font-weight: normal;
+    font-size: italic;
+}
+
+@font-face {
+    font-family: "Coda-ExtraBold" format(truetype);
+    src: url(fonts/Coda-ExtraBold.ttf);
+    font-weight: ExtraBold;
+    font-size: 20pt;
+}
+
+elemto.style {
+    background-image:url(img/lara.jpeg);
+}
+
+* {
+    font-family: "ebgaramond regular", sans-serif;
+    font-size: 13px;
+    text-wrap-style: pretty;
+}
+
+main {
+    margin-left: 2cm;
+}
+
+footer {
+    margin-left: 2cm;
+}
+
+html,
+body {
+    background-color: rgb(245, 214, 233);
+}
+
+
+header {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+}
+
+header img {
+    width: 140px;
+    height: auto;
+}
+
+section {
+    width: 100vw;
+}
+
+/* aplicaiones tipograficas */
+
+h1 {
+    font-family: "Coda-ExtraBold";
+    color: blue; 
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Coda-ExtraBold";
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0 15px 0;
+}
+
+h3 {
+    font-family: Coda-ExtraBold;
+    font-size: 20pt;
+    margin-bottom: 5px;
+    color:rgb(2, 71, 62)
+}
+h3 + p {
+    margin-top: 0;
+}
+
+h4 {
+    font-family: "EBGaramond-Bold";
+    font-size: 12pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.rectangulo-celeste {
+    width: 700px;
+    height: 15px;
+    background-color: rgb(148, 187, 245);
+} 
+
+.presentacion  {
+margin-left: 40px;
+display: flex;
+flex-direction: column;
+}
+
+.presentacion p {
+    margin: 5px 0;
+}
+
+.sobre-mi p {
+    font-family: "EBGaramond-Regular";
+    font-size: 12pt;
+    Width: 700px;
+    line-height: 1,4;
+}
+
+.formacion p {
+    font-family: "EBGaramond-Regular";
+    font-size: 12pt;
+    width: 700px;
+    line-height: 1,4;
+}
+
+
+.proyecto-item {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+
+}
+.proyecto-item img {
+    width: 250px;
+    height: auto;
+}
+
+.proyecto-texto {
+    margin-left: 30px;
+    width: 370px;
+}
+
+.proyecto-texto h4 {
+    margin-top: 0;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/* estilo de parrafo*/
+
+
+#proyectos article {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+#proyectos article p {
+    max-width: 250px;
+    line-height: 18px;
+}
+
+.footer-text { 
+    color: rgb(93, 129, 175);
+    font-size: 18px;
+}
