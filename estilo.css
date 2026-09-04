@@ -1,0 +1,162 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "EBGaramond-Regular";
+    src: url(fonts/EBGaramond-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-size: large;
+}
+
+@font-face {
+    font-family: "EBGaramond-Bold" format(truetype);
+    src: url(fonts/EBGaramond-Bold.ttf);
+    font-weight: bold;
+    font-size: large;
+}
+
+@font-face {
+    font-family: "EBGaramond-Italic" format(truetype);
+    src: url(fonts/EBGaramond-Italic.ttf);
+    font-weight: normal;
+    font-size: italic;
+}
+
+@font-face {
+    font-family: "Coda-ExtraBold" format(truetype);
+    src: url(fonts/Coda-ExtraBold.ttf);
+    font-weight: bold;
+    font-size: large;
+}
+.flex-conteiner{
+    width:100px;
+    background-color: darksalmon;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-conten: space-around;
+    aligh-items: baseline;
+    flex-wrap: wrap;
+    aligh-content: center;
+}
+
+.flex-item{
+background-color: rgb(157, 209, 207);
+margin: 2px;
+color: #000;
+font-family: "ebgaramond boldr", "sans-serif";
+font-weight: bold;
+text-align: center;
+height: 30px;
+width: 50px;
+flex-basis: 0;
+flex-shrink: 0;
+}
+
+.a{
+    flex-grow: 1;
+    order: 3;
+}
+
+.b{
+    flex-grow: 1;
+    order: 1;
+}
+
+.c{
+    flex-grow: 1;
+    order: 2;
+}
+
+elemto.style {
+    background-image:url(img/lara.jpeg);
+}
+
+* {
+    font-family: "ebgaramond regular", sans-serif;
+    font-size: 13px;
+    text-wrap-style: pretty;
+    background-color: rgb(243, 234, 223);
+}
+
+body {
+    background-color: rgb(243,234,233);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(230, 198, 220);
+    border-color:rgb(241, 187, 234);
+    border-radius: 30px;
+}
+
+section {
+    width: 100vw;
+}
+
+/* aplicaiones tipograficas */
+
+h1 {
+    font-family: "coda bold" sans-serif;
+    color: rgb(148, 11, 57);
+    font-size: 35px;
+    text-align: center;
+    background-color: #c39ff1;
+    padding: 20px;
+    height: 50px;
+    border-radius: 30px;
+    text-shadow: -2px -1px 0px rgb(255, 147, 246);
+}
+
+h2 {
+    font-family: "coda bold" sans-serif;
+    color: rgb(87, 59, 59);
+    font-size: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    height: 50px;
+    max-width: 800px;
+    border-radius: 30px;
+}
+
+
+h3 {
+    font-family: "coda bold" sans-serif;
+    color: indianred;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "ebgaramond regular" sans-serif;
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#proyectos article {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+#proyectos article p {
+    max-width: 250px;
+    line-height: 18px;
+}
+
+.footer-text { 
+    color: rgb(93, 129, 175);
+    font-size: 18px;
+}
