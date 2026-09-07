@@ -10,11 +10,11 @@ Para darle el diseño a la página utilicé un archivo separado llamado “estil
 También incorporé las tipografías que había elegido para el diseño y trabajé con Flexbox para poder ordenar elementos, principalmente cuando tenía que colocar una imagen junto a un texto o acomodar diferentes partes dentro de una misma sección.
 
 ## Herramientas utilizadas
- Editor de código: Visual Studio Code.
- Navegador utilizado para probar la página: Google Chrome.
- Lenguajes utilizados: HTML5 y CSS3.
-Resolución de pantalla utilizada: 1920 × 1080 px.
-Diseño previo: Figma.
+* Editor de código: Visual Studio Code.
+* Navegador utilizado para probar la página: Google Chrome.
+* Lenguajes utilizados: HTML5 y CSS3.
+* Resolución de pantalla utilizada: 1920 × 1080 px.
+* Diseño previo: Figma.
 
 ## Diseño previo
 Antes de comenzar con el código realicé el diseño del CV en Figma. Ese diseño fue el punto de partida para después llevarlo a HTML y CSS.
@@ -43,10 +43,10 @@ Donde se encuentran las imágenes utilizadas en el proyecto, como, lara.jpeg, ti
 ## Carpeta fonts
 Dentro de ella se encuentran las tipografías utilizadas a lo largo del proyecto.
 
-Coda ExtraBold: utilizada principalmente para los títulos.
-EB Garamond Regular: utilizada para los textos generales.
-EB Garamond Bold: utilizada para destacar algunos textos. 
-EB Garamond Italic: utilizada en textos que necesitaban una diferenciación dentro del diseño.
+* Coda ExtraBold: utilizada principalmente para los títulos.
+* EB Garamond Regular: utilizada para los textos generales.
+* EB Garamond Bold: utilizada para destacar algunos textos.
+* EB Garamond Italic: utilizada en textos que necesitaban una diferenciación dentro del diseño.
 
 Las tipografías se incorporaron al proyecto para poder mantener el mismo estilo del diseño realizado previamente en Figma.
 
